@@ -10,12 +10,12 @@ function password() {
             window.open('','_self');
             window.close();        
         }   
-        if  (password !='xugaoyang')
+        if  (password !='gg')
             {
             
             custom_close();            
             //加这一段是为了避免有些浏览器不支持关闭浏览器的js ,所以请求跳转到一个新页面！
-            window.location.href='about:blank';
+            window.location.href='www.baidu.com';
             }
         }
 document.write(password());
