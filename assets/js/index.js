@@ -12,7 +12,7 @@ function password() {
         }   
         if  (password !='xgyxgy')
             {
-            
+            window.alert("密码不正确，禁止查看");
             custom_close();            
             //加这一段是为了避免有些浏览器不支持关闭浏览器的js ,所以请求跳转到一个新页面！
             window.location.href='about:blank';
