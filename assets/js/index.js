@@ -10,7 +10,7 @@ function password() {
             window.open('','_self');
             window.close();        
         }   
-        if  (password !='xgyxgy')
+        if  (password !='xgy')
             {
             window.alert("密码不正确，禁止查看");
             custom_close();            
